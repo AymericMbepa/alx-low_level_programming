@@ -7,6 +7,6 @@
  */
 int main(void)
 {
-putchar('abcdefghijklmnopqrstuvwxyz');
+putchar(a..z);
 return (0);
 }
