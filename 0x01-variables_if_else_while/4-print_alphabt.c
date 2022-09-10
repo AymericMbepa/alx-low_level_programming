@@ -13,5 +13,6 @@ while (ch1 <= 'z' && ch1 != 'q' && ch1 != 'e')
 putchar(ch1);
 ch1++;
 }
+putchar('\n');
 return (0);
 }
