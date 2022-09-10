@@ -13,5 +13,6 @@ while (ch <= 'z')
 putchar(ch);
 ch++;
 }
+putchar('\0');
 return (0);
 }
