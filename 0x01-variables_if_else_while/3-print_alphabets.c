@@ -19,7 +19,7 @@ while (ch2 <= 'Z')
 putchar(ch2);
 ch2++;
 }
-ptchar('\n');
+putchar('\n');
 return (0);
 }
  
