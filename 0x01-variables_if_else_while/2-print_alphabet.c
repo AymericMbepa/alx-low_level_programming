@@ -7,6 +7,9 @@
  */
 int main(void)
 {
-putchar(a..z);
+char ch = 'a'
+while (ch <= 'z')
+putchar(ch);
+ch++;
 return (0);
 }
