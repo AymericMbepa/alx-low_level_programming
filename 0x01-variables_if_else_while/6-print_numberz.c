@@ -7,10 +7,10 @@
  */
 int main(void)
 {
-int single_digit = 0;
-while (single_digit < 10)
+unsigned char single_digit = '0';
+while (single_digit < '10')
 {
-putchar('single_digit');
+putchar(single_digit);
 single_digit++;
 }
 putchar('\n');
