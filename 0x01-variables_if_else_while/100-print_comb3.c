@@ -13,7 +13,7 @@ while (i <= '9')
 {
 while (j <= '9')
 {
-while (i > j || i == j)
+if (i > j || i == j)
 j++;
 putchar(i);
 putchar(j);
