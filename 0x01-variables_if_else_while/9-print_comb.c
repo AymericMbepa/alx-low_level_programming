@@ -11,7 +11,7 @@ int digit = '0';
 while (digit <= '9')
 {
 putchar(digit);
-putchar(,);
+putchar(',');
 putchar('\0');
 digit++;
 }
