@@ -7,12 +7,13 @@
  */
 int main(void)
 {
-int i,j = '0','0';
-while(i <= '9')
+int i = '0';
+int j = '0';
+while (i <= '9')
 {
-while(j <= '9')
+while (j <= '9')
 {
-while(i > j || i == j)
+while (i > j || i == j)
 j++;
 putchar(i);
 putchar(j);
