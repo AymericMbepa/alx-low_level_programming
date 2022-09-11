@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-int i, j = '0', '0';
+int i,j = '0','0';
 while(i <= '9')
 {
 while(j <= '9')
