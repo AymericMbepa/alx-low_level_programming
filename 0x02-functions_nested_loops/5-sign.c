@@ -20,7 +20,8 @@ if (n == 0)
 value = 0;
 _putchar('0');
 }
-}
+else
 _putchar('+');
+}
 return (value);
 }
