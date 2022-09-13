@@ -12,9 +12,7 @@ int value;
 for (ch = 'a' ; ch <= 'z' ; ch++)
 {
 if (c == ch)
-{
 value = 1;
 }
 return (value);
-}
 }
