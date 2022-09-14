@@ -13,7 +13,7 @@ if (c >= 0)
 last_digit = c % 10;
 }
 else
-last_digit = (-1)*c % 10;
+last_digit = -1 * (c % 10);
 _putchar(last_digit);
 _putchar('\n');
 return (last_digit);
