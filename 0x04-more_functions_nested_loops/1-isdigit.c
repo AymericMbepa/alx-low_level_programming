@@ -1,18 +1,18 @@
 #include "main.h"
 
 /**
- * _isopper - check for lowercase character
- * @c: An input character
+ * _isdigit - check for a digit (0 through 9).
+ * @c: An input value
  * Return: 1 if it is and 0 otherwise
  */
 
-int _isopper(int c)
+int _isdigit(int c)
 {
-	char ch;
+	int ch;
 
 	int value = 0;
 
-	for (ch = 'A' ; ch <= 'Z' ; ch++)
+	for (ch = '0' ; ch <= '9' ; ch++)
 	{
 		if (c == ch)
 			value = 1;
