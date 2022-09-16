@@ -6,7 +6,6 @@
  * @n: enter parameter
  * Return: no return value
  */
-
 void print_line(int n)
 {
 	int i = 0;
