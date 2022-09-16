@@ -4,7 +4,7 @@
  * print_line - draws a straight line in the terminal
  * followed by an new line
  * @n: enter parameter
- * Return: no return value
+ * Return: Always 0
  */
 void print_line(int n)
 {
