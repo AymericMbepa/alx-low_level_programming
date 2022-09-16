@@ -2,6 +2,7 @@
 
 /**
  * print_line - draws a straight line in the terminal
+ * followed by an new line
  * @n: enter parameter
  * Return: no return value
  */
@@ -12,7 +13,7 @@ void print_line(int n)
 
 	if (n > 0)
 	{
-		for (; i < n ; i++)
+		for (; i < n; i++)
 			_putchar('_');
 	}
 	_putchar('\n');
