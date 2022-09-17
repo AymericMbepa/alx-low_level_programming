@@ -22,6 +22,7 @@ void fizz_buzz(void)
 				_putchar(u);
 				_putchar(z);
 				_putchar(z);
+				_putchar(' ');
 			}
 			else if ((i % 3 == 0) && (i % 5 != 0))
 			{
@@ -29,6 +30,7 @@ void fizz_buzz(void)
 				_putchar(i);
 				_putchar(z);
 				_putchar(z);
+				_putchar(' ');
 			}
 			else
 			{
@@ -36,10 +38,14 @@ void fizz_buzz(void)
 				_putchar(u);
 				_putchar(z);
 				_putchar(z);
+				_putchar(' ');
 			}
 		}
 		else
+		{
 			_putchar(i + '0');
+			_putchar(' ');
+		}
 	}
 	_putchar('\n');
 }
