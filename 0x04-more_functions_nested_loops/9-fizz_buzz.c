@@ -38,7 +38,8 @@ void fizz_buzz(void)
 				_putchar(z);
 			}
 		}
-		_putchar(i + '0');
+		else
+			_putchar(i + '0');
 	}
 	_putchar('\n');
 }
