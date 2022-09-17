@@ -23,7 +23,7 @@ void fizz_buzz(void)
 				_putchar(z);
 				_putchar(z);
 			}
-			else if (i % 3 == 0)
+			else if ((i % 3 == 0) && (i % 5 != 0))
 			{
 				_putchar(F);
 				_putchar(i);
