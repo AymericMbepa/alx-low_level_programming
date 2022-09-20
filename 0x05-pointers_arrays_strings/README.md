@@ -4,3 +4,4 @@ updates the value it points to to 98.
 2-  function that returns the length of a string.
 3-function that prints a string, followed by a new line, to stdout.
 4-prints a string, in reverse, followed by a new line.
+5-reverses a string.
