@@ -22,7 +22,7 @@ char *_strcat(char *dest, char *src)
 		n++;
 	}
 
-	while (k <= (i+j))
+	while (k <= (i + j))
 	{
 		*(dest + k) = '\0';
 		k++;
