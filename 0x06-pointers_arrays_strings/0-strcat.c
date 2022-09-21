@@ -2,8 +2,8 @@
 
 /**
  * _strcat - concatenates two strings
- * @dest: a pointer to a char
- * @src: a pointer to a char
+ * @dest: an input string
+ * @src: an input string
  * Return: resulting strings
  */
 char *_strcat(char *dest, char *src)
