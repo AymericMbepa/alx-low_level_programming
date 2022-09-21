@@ -18,12 +18,15 @@ char *_strcat(char *dest, char *src)
 
 	for (k = i; k < (i + j); k++)
 	{
-		dest[i] = src[n];
+		*(dest + k) = *(src + n);
 		n++;
 	}
 
 	while (k <= (i+j))
-		dest[k] = '\0';
+	{
+		*(dest + k) = '\0';
+		k++;
+	}
 
 	return (dest);
 }
