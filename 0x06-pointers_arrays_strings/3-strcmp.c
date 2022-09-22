@@ -2,8 +2,8 @@
 
 /**
  * _strcmp -  function that compares two strings.
- * @dest: an imput string
- * @src: an imput string
+ * @s2: an imput string
+ * @s1: an imput string
  * Return: an integer
  */
 int _strcmp(char *s1, char *s2)
@@ -19,7 +19,7 @@ int _strcmp(char *s1, char *s2)
 	if (i > j)
 		n = 15;
 	else if (i < j)
-		n = - 15;
+		n = -15;
 	else
 		n = 0;
 
