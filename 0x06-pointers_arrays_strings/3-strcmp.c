@@ -8,7 +8,7 @@
  */
 int _strcmp(char *s1, char *s2)
 {
-	int i = 0, j = 0, n;
+	int i = 0, j = 0, n, k;
 
 	while (s1[i] != '\0')
 		i++;
@@ -21,7 +21,17 @@ int _strcmp(char *s1, char *s2)
 	else if (i < j)
 		n = -15;
 	else
-		n = 0;
+	{
+		for (k = 0; k < i; k++)
+		{
+			if (s1[k] == s2[k])
+				n = 0;
+			else if (s1[k] > s2[k])
+				n = 15;
+			else
+				n = -15;
+		}
+	}
 
 	return (n);
 }
