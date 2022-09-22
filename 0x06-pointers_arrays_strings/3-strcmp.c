@@ -19,7 +19,7 @@ int _strcmp(char *s1, char *s2)
 	if (i > j)
 		n = 15;
 	else if (i < j)
-		n = -15;
+		n = - 15;
 	else
 		n = 0;
 
