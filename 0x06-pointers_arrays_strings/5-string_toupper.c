@@ -17,8 +17,8 @@ char *string_toupper(char *ch)
 	{
 		for (c1 = 'a', c2 = 'A'; c1 <= 'z'&& c2 <= 'Z'; c1++, c2++)
 		{
-			if (ch[k] == ch1)
-				ch[k] = ch2;
+			if (ch[k] == c1)
+				ch[k] = c2;
 		}
 	}
 
