@@ -5,7 +5,7 @@
  * @a: a pointer to an array
  * @n: an input integer
  */
-void reverse_array(int *a , int n)
+void reverse_array(int *a, int n)
 {
 	int i = 0, tab;
 
