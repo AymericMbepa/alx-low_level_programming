@@ -1,4 +1,5 @@
 0- function that creates an array of chars, and initializes it with
-a specific char
+  a specific char
 1-  returns a pointer to a newly allocated space in memory, which contains
-a copy of the string given as a parameter.
+  a copy of the string given as a parameter.
+2- function that concatenates two strings.
