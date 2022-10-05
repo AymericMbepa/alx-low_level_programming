@@ -4,3 +4,4 @@
   a copy of the string given as a parameter.
 2- function that concatenates two strings.
 3-  function that returns a pointer to a 2 dimensional array of integers
+4- frees a two dimensional grid
