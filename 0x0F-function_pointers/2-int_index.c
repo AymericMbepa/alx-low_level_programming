@@ -29,7 +29,7 @@ int int_index(int *array, int size, int (*cmp)(int))
 		{
 			j = i;
 			break;
-		}else
+		} else
 			j = -1;
 	}
 
