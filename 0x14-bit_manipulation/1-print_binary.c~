@@ -1,0 +1,42 @@
+#include "main.h"
+
+/**
+ * print_binary - prints the binary representation of a number
+ * @n: number to print a binary representation
+ *
+ * Return: void
+ */
+
+void print_binary(unsigned long int n)
+{
+	char *str;
+	unsigned int mx = 0x01;
+	int i = 0, j = 0;
+
+	str = malloc(sizeof(char *));
+	if (n == 0)
+	{
+		_putchar('0');
+		return;
+	}
+	while (mx)
+	{
+		if ((n & mx))
+			break;
+		mx <<= 1;
+	}
+	while (mx)
+	{
+		*(str + i) = (n & mx);
+		i++;
+		mx <<= 1;
+	}
+
+	i = 0;
+	while (*(str + i) != '\0')
+		i++;
+	for (j = i - 1; j >= 0; j--)
+	{
+		_putchar(*(str + j));
+	}
+}
