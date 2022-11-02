@@ -28,5 +28,5 @@ int create_file(const char *file_name, char *text_content)
 	if (fd2 < 0)
 		return (-1);
 
-   	return (1);
+	return (1);
 }
